@@ -1,6 +1,6 @@
 A = list(map(int,input().split()))
 n = len(A)
-flag = 1
+flag = 1                        #for making adaptive
 for i in range(n-1):
     flag = 0
     for j in range(n-1-i):
@@ -15,3 +15,5 @@ for i in range(n-1):
         
 print("The sorted list is . . .")
 print(A)
+
+

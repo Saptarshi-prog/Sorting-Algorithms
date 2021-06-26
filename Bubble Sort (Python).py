@@ -1,4 +1,4 @@
-A = [8, 5, 7, 3, 2]
+A = list(map(int,input().split()))
 n = len(A)
 flag = 1
 for i in range(n-1):
